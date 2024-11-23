@@ -2,7 +2,7 @@ const fs = require("fs");
 require("dotenv").config();
 
 const config = {
-  SESSION_ID: process.env.SESSION_ID || "Gifted~S3piybYa#1E3VMk2zp6t1hC3KMn1Wt_tqNTQx5r5NmM0WwBTX0OM",
+  SESSION_ID: process.env.SESSION_ID || "Gifted~2mYxXSbI#U9VZ4e5P4SPJmS11AbIjCVolBncAGvmlTHdpHYnAvm4",
   PREFIX: process.env.PREFIX || '.',
   AUTOLIKE_EMOJI: process.env.AUTOLIKE_EMOJI || '💚', // For liking whatsapp status updates(stories)
   AUTO_READ_STATUS: process.env.AUTO_READ_STATUS !== undefined ? process.env.AUTO_READ_STATUS === 'true' : true,
